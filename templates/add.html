@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add New Case</title>
+</head>
+<body>
+    <h1>Add New Case</h1>
+    <form method="POST">
+        <label for="case_id">Case ID:</label>
+        <input type="text" id="case_id" name="case_id" required><br><br>
+
+        <label for="case_title">Case Title:</label>
+        <input type="text" id="case_title" name="case_title" required><br><br>
+
+        <label for="case_text">Case Text:</label>
+        <textarea id="case_text" name="case_text" rows="4" cols="50" required></textarea><br><br>
+
+        <button type="submit">Add Case</button>
+    </form>
+    <br>
+    <a href="/">Home</a>
+    <a href="/delete">Delete Case</a>
+</body>
+</html>
